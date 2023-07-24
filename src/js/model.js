@@ -107,7 +107,6 @@ const getData = function () {
   if (storage) state.bookmarks = JSON.parse(storage);
 };
 getData();
-console.log(state.bookmarks);
 
 export const uploadRecipe = async function (newRecipe) {
   // console.log(Object.entries(newRecipe));
