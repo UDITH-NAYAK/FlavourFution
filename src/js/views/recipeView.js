@@ -1,6 +1,6 @@
 import icons from 'url:../../img/icons.svg';
 // import { Fraction } from 'fractional';
-import fracty from 'fracty';
+const fracty = require('fracty');
 
 import View from './View.js';
 
